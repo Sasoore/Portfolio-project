@@ -1,10 +1,10 @@
 :root {
-  --heading-font-family: 'Poppins', sans-serif;
-  --main-font-famliy: 'Montserrat', sans-serif;
+  --heading-font-family: 'Noto Serif', serif;
+  --main-font-famliy: 'Poppins', sans-serif;
 }
 
 h1 {
-  font-family: var(--main-font-family);
+  font-family: var(--heading-font-family);
   font-size: 60px;
 }
 
@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   font-size: 17px;
-  margin: 50px;
+  margin-top: 10px;
 }
 p {
   text-align: left;
