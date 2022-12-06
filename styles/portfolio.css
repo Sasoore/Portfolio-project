@@ -1,18 +1,38 @@
+:root {
+  --heading-font-family: 'Poppins', sans-serif;
+  --main-font-famliy: 'Montserrat', sans-serif;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--main-font-famliy);
 }
 
 h1 {
-  text-align: center;
-  font-size: 25px;
-  margin-top: 150px;
+  font-family: var(--main-font-family);
+  font-size: 60px !important;
+}
+
+h2 {
+  margin-top: 20px !important;
+  font-size: 30px !important;
+  color: gray;
 }
 
 p {
   line-height: 1.5;
+  font-weight: bold;
+  font-size: 32px;
 }
 
-#contact {
+.homepage {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.btn-contact {
+  background-color: blueviolet !important;
+  color: white !important;
   margin: 25px;
+  padding: 10px 20px !important;
+  line-height: 27px;
 }
