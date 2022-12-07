@@ -64,6 +64,28 @@ nav li.active a {
   color: blueviolet;
 }
 
+footer {
+  background-color: #b6b2ac;
+  padding: 25px;
+  height: 120px;
+}
+
+footer h2 {
+  text-align: left;
+  font-size: 35px;
+  position: relative;
+}
+
+footer p {
+  text-align: left;
+  color: white;
+  font-weight: 300;
+}
+
+footer a {
+  text-align: center;
+}
+
 .homepage {
   margin-top: 50px;
   text-align: center;
@@ -125,6 +147,19 @@ nav li.active a {
   font-size: 14px;
 }
 
+.talk-btn {
+  background-color: gray;
+  text-align: center;
+  border: none;
+  padding: 10px 40px;
+  line-height: 1.7;
+  margin-left: 120px;
+}
+
+.talk-btn:hover {
+  background-color: black;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -143,5 +178,34 @@ nav li.active a {
     display: block;
     text-align: center;
     margin: 0 15px;
+  }
+
+  .talk-btn {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  footer h2 {
+    font-size: 32px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 10px;
+  }
+  footer h2 {
+    font-size: 28px;
+  }
+  footer p {
+    margin-bottom: 4px;
+  }
+  .talk-btn {
+    margin-top: 0;
   }
 }
