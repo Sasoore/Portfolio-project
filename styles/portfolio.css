@@ -82,18 +82,27 @@ a:hover {
   padding: 160px 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
-
-.about-section-content h2 {
+.content h2 {
   font-size: 35px;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
   h1 {
     text-align: center;
   }
+
   h2 {
     text-align: center;
     font-size: 50px;
