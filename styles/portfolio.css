@@ -71,7 +71,29 @@ a:hover {
   border-radius: 5px;
 }
 
+.work-btn {
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section-content h2 {
+  font-size: 35px;
+}
+
 @media (max-width: 900px) {
+  h1 {
+    text-align: center;
+  }
   h2 {
     text-align: center;
     font-size: 50px;
