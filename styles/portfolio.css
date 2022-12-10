@@ -11,7 +11,7 @@ h1 {
 h2 {
   font-family: var(--heading-font-family);
   text-align: left;
-  font-size: 55px;
+  font-size: 35px;
 }
 
 h3 {
@@ -27,6 +27,9 @@ p {
 
 img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 5px;
 }
 
 a {
@@ -51,6 +54,7 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 10px;
+  padding: 12px;
 }
 
 nav a {
@@ -65,20 +69,22 @@ nav li.active a {
 }
 
 footer {
-  background-color: #b8b7a9;
+  border: 2px solid #368a64;
   padding: 5px;
   height: 120px;
+  margin: 10px;
 }
 
 footer h2 {
   text-align: left;
   font-size: 35px;
   position: relative;
+  margin-top: 28px;
 }
 
 footer p {
   text-align: left;
-  color: white;
+  color: #368a64;
   font-weight: 300;
 }
 
@@ -86,6 +92,9 @@ footer a {
   text-align: center;
 }
 
+.second-text {
+  display: none;
+}
 .homepage {
   margin-top: 50px;
   text-align: center;
@@ -105,7 +114,7 @@ footer a {
 }
 
 .btn-contact {
-  background-color: gray;
+  background-color: #368a64;
   color: white;
   margin: 25px;
   padding: 10px 20px;
@@ -113,15 +122,19 @@ footer a {
 }
 
 .readMore-btn {
-  background-color: gray;
+  display: block;
+  margin: 0 auto;
+  width: 520px;
+  background-color: #368a64;
   color: white;
   font-size: 12px;
   padding: 10px 15px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .work-btn {
-  background-color: gray;
+  background-color: #368a64;
   color: white;
   font-size: 20px;
   padding: 10px 15px;
@@ -148,7 +161,7 @@ footer a {
 }
 
 .talk-btn {
-  background-color: gray;
+  background-color: #368a64;
   text-align: center;
   border: none;
   padding: 10px 40px;
@@ -168,11 +181,18 @@ footer a {
 
   h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 0px;
   }
 
   p {
     text-align: center;
+  }
+  .first-text {
+    display: none;
+  }
+
+  .second-text {
+    display: inline-block;
   }
   .row a {
     display: block;
@@ -184,7 +204,11 @@ footer a {
     margin-top: 0;
     margin-bottom: 3px;
   }
-
+  .readMore-btn {
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+  }
   footer {
     height: 150px;
     padding: 10px;
