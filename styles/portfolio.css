@@ -15,8 +15,8 @@ h2 {
 }
 
 h3 {
-  font-size: 17px;
-  margin-top: 10px;
+  font-size: 26px;
+  margin-top: 50px;
 }
 p {
   text-align: left;
@@ -127,8 +127,9 @@ footer a {
   width: 520px;
   background-color: #368a64;
   color: white;
-  font-size: 12px;
+  font-size: 18px;
   padding: 10px 15px;
+  margin-bottom: 8px;
   border-radius: 5px;
   text-align: center;
 }
@@ -179,14 +180,29 @@ footer a {
     text-align: center;
   }
 
-  h2 {
+  .homepage h2 {
     text-align: center;
-    font-size: 0px;
+    font-size: 20px !important;
+  }
+
+  h2 {
+    font-size: 0;
   }
 
   p {
     text-align: center;
   }
+  nav {
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    font-size: 12px;
+    margin: 2px !important;
+    padding: 3px !important;
+  }
+
   .first-text {
     display: none;
   }
@@ -207,8 +223,10 @@ footer a {
   .readMore-btn {
     font-size: 20px;
     display: block;
-    margin: 0 auto;
+    margin: -90px auto 60px auto;
+    width: 200px;
   }
+
   footer {
     height: 150px;
     padding: 10px;
@@ -230,8 +248,13 @@ footer a {
   }
 
   .talk-btn {
+    position: relative;
     margin-top: 25px;
     margin-left: 80px;
     padding: 10px 50px;
+  }
+
+  p {
+    font-size: 10px;
   }
 }
